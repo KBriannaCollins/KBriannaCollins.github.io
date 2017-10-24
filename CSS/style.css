@@ -27,5 +27,28 @@ a, a:hover, a:visted, a:active{
 nav{
 	background-color:blue;
 	width:100%;
-	
+}
+
+#profileDiv img{
+	float:left;
+	/*margin-left:5%;
+	margin-top:10%;
+	margin-right:5%;*/
+	margin:5%;
+	/*clear:both;*/
+	border:2px groove black;
+}
+
+#profileP{
+	background-color:white;
+	border:1px solid white;
+	border-radius:5px;
+	padding:20px;
+}
+
+#parallax{
+	background-image:url(#);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height:200px;
 }
