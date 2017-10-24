@@ -1,0 +1,31 @@
+*{
+	font-family:helvetica;
+	font-size:20px;
+	text-align:center;
+}
+
+body{
+	background-image:url("../Images/lemonbowl.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-color:white;
+}
+
+table, th, td{
+	border: 1px solid black;
+}
+
+a, a:hover, a:visted, a:active{
+	color:white;
+	/*color:#FFFFFF;*/
+	/*color:rgb(0,0,0,);*/
+	/*color:rgba(0,0,0,0);*/
+	text-decoration:none;
+	padding:10px 14px; /*up right down left*/
+}
+
+nav{
+	background-color:blue;
+	width:100%;
+	
+}
