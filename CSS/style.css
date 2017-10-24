@@ -24,6 +24,21 @@ a, a:hover, a:visted, a:active{
 	padding:10px 14px; /*up right down left*/
 }
 
+a:hover{
+	color:black;
+	animation-name:linkHover;
+	animation-duration:5s;
+	animation-loop:infinite;
+}
+
+@keyframees linkHover{
+	0%{margin-top:2%;}
+	25%{margin-top:1%;}
+	50%{margin-top:0%;}
+	75%{margin-top:1%;}
+	100%{margin-top:2%;}
+}
+
 nav{
 	background-color:blue;
 	width:100%;
