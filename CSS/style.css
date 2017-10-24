@@ -25,6 +25,7 @@ a, a:hover, a:visted, a:active{
 }
 
 a:hover{
+	margin-top:2%;
 	color:black;
 	animation-name:linkHover;
 	animation-duration:5s;
